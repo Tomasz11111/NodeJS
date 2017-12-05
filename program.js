@@ -11,6 +11,10 @@ process.stdin.on('readable', function() {
 			var version = process.versions.node;
 			process.stdout.write(version);
 		}
+		else if(instruction === 'lang') /*only for Mac and Linux*/ {
+			var lang = process.env.LANG;
+			process.stdout.write(lang);
+			}
 		else 
 		{
 			process.stderr.write("Wrong instruction!\n");
