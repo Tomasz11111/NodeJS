@@ -9,7 +9,7 @@ process.stdin.on('readable', function() {
 				process.stdout.write(version);
 				break;
 			case 'lang':
-				var lang = process.env.LANG; /*only for Mac and Linux*/
+				var lang = String(process.env.LANG); /*only for Mac and Linux*/
 				process.stdout.write(lang);
 				break;
 			case '/exit':
