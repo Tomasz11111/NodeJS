@@ -1,0 +1,56 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container--start {
+	background-color: #184971;
+	border-radius: 20px;
+}
+div.container h1 {
+	text-align: center;
+}
+div.container--start h1, form {
+	width: 80%;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+div.container img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+label, input {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+label {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+input {
+	font-size: 18px;
+}
+input[type='file'] {
+	width: 80%;
+	font-size: 16px;
+}
+input[type='submit'] {
+	padding: 10px;
+	background-color: #184971;
+	color:white;
+	border-radius: 10px;
+}
+

@@ -1,25 +1,16 @@
 {
-  "name": "Node-test",
+  "name": "1.9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tomasz11111/NodeJS.git"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tomasz11111/NodeJS/issues"
-  },
-  "homepage": "https://github.com/Tomasz11111/NodeJS#readme",
   "dependencies": {
-    "colors": "^1.1.2",
-    "stat-mode": "^0.2.2"
+    "colors": "^1.1.2"
   }
 }
